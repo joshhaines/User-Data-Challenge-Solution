@@ -15,6 +15,11 @@
 		151BC67919CF83DA00A7F025 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151BC67819CF83DA00A7F025 /* Images.xcassets */; };
 		151BC67C19CF83DA00A7F025 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151BC67A19CF83DA00A7F025 /* LaunchScreen.xib */; };
 		151BC68819CF83DA00A7F025 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151BC68719CF83DA00A7F025 /* User_Data_Challenge_SolutionTests.m */; };
+		151BC69319CF840D00A7F025 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 151BC69219CF840D00A7F025 /* UserData.m */; };
+		151BC69819CF871F00A7F025 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 151BC69419CF871F00A7F025 /* person1.jpeg */; };
+		151BC69919CF871F00A7F025 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 151BC69519CF871F00A7F025 /* person2.jpeg */; };
+		151BC69A19CF871F00A7F025 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 151BC69619CF871F00A7F025 /* person3.jpg */; };
+		151BC69B19CF871F00A7F025 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 151BC69719CF871F00A7F025 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,12 @@
 		151BC68119CF83DA00A7F025 /* User Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		151BC68619CF83DA00A7F025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		151BC68719CF83DA00A7F025 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		151BC69119CF840D00A7F025 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserData.h; path = ../UserData.h; sourceTree = "<group>"; };
+		151BC69219CF840D00A7F025 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserData.m; path = ../UserData.m; sourceTree = "<group>"; };
+		151BC69419CF871F00A7F025 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		151BC69519CF871F00A7F025 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		151BC69619CF871F00A7F025 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		151BC69719CF871F00A7F025 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +99,7 @@
 				151BC67219CF83DA00A7F025 /* ViewController.h */,
 				151BC67319CF83DA00A7F025 /* ViewController.m */,
 				151BC67519CF83DA00A7F025 /* Main.storyboard */,
+				151BC69C19CF8D5E00A7F025 /* Model */,
 				151BC67819CF83DA00A7F025 /* Images.xcassets */,
 				151BC67A19CF83DA00A7F025 /* LaunchScreen.xib */,
 				151BC66F19CF83DA00A7F025 /* User_Data_Challenge_Solution.xcdatamodeld */,
@@ -99,6 +111,10 @@
 		151BC66819CF83DA00A7F025 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				151BC69419CF871F00A7F025 /* person1.jpeg */,
+				151BC69519CF871F00A7F025 /* person2.jpeg */,
+				151BC69619CF871F00A7F025 /* person3.jpg */,
+				151BC69719CF871F00A7F025 /* person4.jpeg */,
 				151BC66919CF83DA00A7F025 /* Info.plist */,
 				151BC66A19CF83DA00A7F025 /* main.m */,
 			);
@@ -120,6 +136,15 @@
 				151BC68619CF83DA00A7F025 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		151BC69C19CF8D5E00A7F025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				151BC69119CF840D00A7F025 /* UserData.h */,
+				151BC69219CF840D00A7F025 /* UserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +191,7 @@
 		151BC65D19CF83DA00A7F025 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JH;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Joshua Haines";
 				TargetAttributes = {
@@ -202,9 +228,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151BC69A19CF871F00A7F025 /* person3.jpg in Resources */,
+				151BC69819CF871F00A7F025 /* person1.jpeg in Resources */,
 				151BC67719CF83DA00A7F025 /* Main.storyboard in Resources */,
 				151BC67C19CF83DA00A7F025 /* LaunchScreen.xib in Resources */,
+				151BC69B19CF871F00A7F025 /* person4.jpeg in Resources */,
 				151BC67919CF83DA00A7F025 /* Images.xcassets in Resources */,
+				151BC69919CF871F00A7F025 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +255,7 @@
 				151BC66E19CF83DA00A7F025 /* AppDelegate.m in Sources */,
 				151BC67119CF83DA00A7F025 /* User_Data_Challenge_Solution.xcdatamodeld in Sources */,
 				151BC67419CF83DA00A7F025 /* ViewController.m in Sources */,
+				151BC69319CF840D00A7F025 /* UserData.m in Sources */,
 				151BC66B19CF83DA00A7F025 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
